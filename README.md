@@ -288,6 +288,6 @@ This ML Command Builder is just one part of my MCmadeEasy project. Future plans 
 
 ---
 
-<p align="center">
-  <sub>## Made with 🖤 by RK Studios</sub>
-</p>
+<h1 align="center">
+   Made with 🖤 by RK Studios
+</h1>
