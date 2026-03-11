@@ -1,0 +1,30 @@
+give me diamonds|command
+give me diamond blocks|command
+give me 10 diamonds|command
+give me a stack of diamond|command
+give me 2 stacks of iron|command
+tp me to spawn|command
+teleport me home|command
+teleport to coordinates 100 64 100|command
+kick steve|command
+kick player|command
+ban griefing_player|command
+ban someone|command
+op me|command
+op player|command
+deop admin|command
+deop someone|command
+locate village|command
+locate stronghold|command
+setblock at 0 64 0 diamond_block|command
+summon zombie|command
+summon creeper at 100 64 100|command
+warp to home|command
+what is minecraft|chat
+tell me a joke|chat
+how are you|chat
+what can you do|chat
+hello|chat
+hi there|chat
+thanks|chat
+good job|chat

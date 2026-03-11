@@ -1,0 +1,30 @@
+give|/give {player} {item} {count}
+tp|/tp {player} {x} {y} {z}
+teleport|/tp {player} {x} {y} {z}
+kick|/kick {player}
+ban|/ban {player}
+op|/op {player}
+deop|/deop {player}
+locate|/locate {structure}
+setblock|/setblock {x} {y} {z} {block}
+summon|/summon {entity} {x} {y} {z}
+warp|/warp {name}
+npc_create|/npc create {name}
+kill|/kill {player}
+clear|/clear {player}
+gamemode|/gamemode {mode} {player}
+time|/time set {time}
+weather|/weather {weather}
+spawnpoint|/spawnpoint {player} {x} {y} {z}
+difficulty|/difficulty {difficulty}
+effect|/effect give {player} {effect}
+enchant|/enchant {player} {enchantment}
+experience|/xp {amount} {player}
+fill|/fill {x1} {y1} {z1} {x2} {y2} {z2} {block}
+clone|/clone {x1} {y1} {z1} {x2} {y2} {z2} {x3} {y3} {z3}
+particle|/particle {particle} {x} {y} {z}
+title|/title {player} title {text}
+tellraw|/tellraw {player} {message}
+scoreboard|/scoreboard objectives add {objective} dummy
+team|/team add {team}
+trigger|/trigger {objective} set {value}

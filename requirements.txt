@@ -1,0 +1,4 @@
+rapidfuzz
+scikit-learn
+joblib
+requests
