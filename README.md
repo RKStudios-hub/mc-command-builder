@@ -289,5 +289,5 @@ This ML Command Builder is just one part of my MCmadeEasy project. Future plans 
 ---
 
 <p align="center">
-  <sub>Made with 🖤 by RK Studios</sub>
+  <sub>## Made with 🖤 by RK Studios</sub>
 </p>
