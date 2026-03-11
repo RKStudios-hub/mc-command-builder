@@ -1,4 +1,5 @@
-# ⛏️ Minecraft AI Command Builder
+<img src="Banner.png" width="100%">
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/First%20ML%20Project-Learning%20🎓-green?style=for-the-badge&logo=github" alt="Learning Project">
@@ -8,7 +9,7 @@
 </p>
 
 > 🤖 **Part of MCmadeEasy** — A larger project to make Minecraft easier and more accessible
-
+<br>
 A beginner-friendly machine learning project that creates a natural language interface for Minecraft commands. This was my **first time learning and building a machine learning algorithm**! 🎉
 
 ---
@@ -287,12 +288,6 @@ This ML Command Builder is just one part of my MCmadeEasy project. Future plans 
 
 ---
 
-## 📜 License
-
-MIT License — Feel free to use and learn from this!
-
----
-
 <p align="center">
-  <sub>Built with ❤️ as my first ML project. Happy crafting! ⛏️</sub>
+  <sub>Made with 🖤 by RK Studios</sub>
 </p>
