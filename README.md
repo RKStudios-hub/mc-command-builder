@@ -164,6 +164,28 @@ Connects to OpenRouter API:
 
 ---
 
+## Data Files (Reference Lists)
+
+The `data/` folder contains reference lists used by the **resolver** (`core/resolver.py`) to match what you type to valid Minecraft IDs:
+
+| File | Count | Purpose |
+|------|-------|---------|
+| **items.txt** | 1,415 items | All obtainable items (diamond, bow, bucket, etc.) |
+| **blocks.txt** | 1,173 blocks | All placeable blocks (stone, diamond_block, oak_planks, etc.) |
+| **entities.txt** | 126 entities | All mobs/entities (zombie, creeper, pig, etc.) |
+| **structures.txt** | 36 structures | All generated structures (village, stronghold, mansion, etc.) |
+| **players.txt** | - | Saved player names for /kick, /ban, /tp commands |
+
+**How it works:**
+When you type "give me 10 diamonds", the resolver checks your input against these lists using fuzzy matching (RapidFuzz). So even if you type:
+- "diamond" → matches `minecraft:diamond`
+- "diamonds" → matches `minecraft:diamond`  
+- "diamond block" → matches `minecraft:diamond_block`
+
+The resolver handles typos too - it uses fuzzy string matching with a 70% threshold.
+
+---
+
 ## Requirements
 
 ```bash
